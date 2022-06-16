@@ -121,13 +121,14 @@ com.example.covidtracker.Adapter adapter;
         ApiUtilities.getApiInterface().getcountrydata().enqueue(new Callback<List<ModelClass>>() {
             @Override
             public void onResponse(Call<List<ModelClass>> call, Response<List<ModelClass>> response) {
-                //error on modelclasslist
+
                 modelClassList.addAll( response.body());
                 for(int i=0;i<modelClassList.size();i++){
 
                     if(modelClassList.get(i).getCountry().equals(country)){
 
                         Tactive.setText((modelClassList.get(i).getActive()));
+                        Ttodayactive.setText(modelClassList.get(i).getActive());
                         Ttodaydeaths.setText((modelClassList.get(i).getTodayDeaths()));
                         Ttodayrecovered.setText((modelClassList.get(i).getTodayRecovered()));
                         Ttodaytotal.setText((modelClassList.get(i).getTodayCases()));

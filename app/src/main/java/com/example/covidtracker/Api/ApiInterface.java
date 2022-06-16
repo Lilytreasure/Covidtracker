@@ -12,4 +12,5 @@ public interface ApiInterface {
     Call<List<ModelClass>> getcountrydata();
 
 
+
 }
