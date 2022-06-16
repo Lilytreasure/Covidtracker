@@ -74,7 +74,7 @@ com.example.covidtracker.Adapter adapter;
 
 
         spinner.setOnItemSelectedListener(this);
-        ArrayAdapter arrayAdapter=new ArrayAdapter(this, com.hbb20.R.layout.support_simple_spinner_dropdown_item);
+        ArrayAdapter arrayAdapter=new ArrayAdapter(this, com.hbb20.R.layout.support_simple_spinner_dropdown_item,types);
         arrayAdapter.setDropDownViewResource(com.hbb20.R.layout.support_simple_spinner_dropdown_item);
         spinner.setAdapter(arrayAdapter);
 
@@ -107,6 +107,7 @@ com.example.covidtracker.Adapter adapter;
         countryCodePicker.setOnCountryChangeListener(new CountryCodePicker.OnCountryChangeListener() {
             @Override
             public void onCountrySelected() {
+                country=countryCodePicker.getSelectedCountryName();
                 fetchRequestedData();
 
             }
@@ -178,9 +179,9 @@ com.example.covidtracker.Adapter adapter;
 
 
     @Override
-    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+    public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
 
-        String item=types[i];
+        String item=types[position];
         mfilter.setText(item);
         adapter.filter(item);
 

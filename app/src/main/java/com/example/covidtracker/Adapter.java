@@ -87,6 +87,7 @@ TextView cases, country;
         else{
             m=4;
         }
+        notifyDataSetChanged();
 
     }
 
