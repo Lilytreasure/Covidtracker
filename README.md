@@ -5,3 +5,8 @@ The app has implemented visual aids in form of pie charts  for easier visualisat
 
 The app will help you to filter data to perform targeted searches as you wish to.
 
+
+Aplication previews
+
+![Screenshot_20220621-161128](https://user-images.githubusercontent.com/78819932/174809712-f01ac92a-dee3-4ad2-a5cb-9f93c2065eed.png)
+
