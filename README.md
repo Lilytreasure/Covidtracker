@@ -1,9 +1,10 @@
 # Covidtracker
 This is a covid tracking mobile application fetching data from an api in real time.
 
-The app has implemented data visualisations inform of pie charts
+The app has implemented data visualisations in form of pie charts
 
 The app will help you to filter data to perform targeted searches as you wish to.
+
 
 
  ### APP Screenshots : 
@@ -17,8 +18,6 @@ The app will help you to filter data to perform targeted searches as you wish to
    
   </tr>
   
-  
-   
 </table><br>
 
 
