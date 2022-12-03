@@ -12,3 +12,21 @@ Aplication previews
 
 ![Screenshot_20220621-161138](https://user-images.githubusercontent.com/78819932/174811997-d58957d3-4b20-48e8-bfeb-ab4cfdcec299.png)
 
+
+<br>
+
+<br>
+
+
+
+ <table align="center">
+           
+            
+            <tr>
+              <td><img src="https://user-images.githubusercontent.com/78819932/174809712-f01ac92a-dee3-4ad2-a5cb-9f93c2065eed.png" alt="News home"         style="width:200px;height:400px;"></td>
+              <td><img src="https://github.com/Raj-m01/News-App/blob/master/screenshots/browse.jpeg" alt="read News" style="width:200px;height:400px;"></td>
+              <td><img src="https://github.com/Raj-m01/News-App/blob/master/screenshots/saved.jpeg" alt="saved news" style="width:200px;height:400px;"></td>
+            </tr>
+             
+          </table><br><br>
+
